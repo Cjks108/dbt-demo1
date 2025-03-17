@@ -1,2 +1,2 @@
 # dbt-demo1
-test cases 
+A dbt project for managing data transformations.
