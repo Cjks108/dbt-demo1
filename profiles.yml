@@ -1,0 +1,15 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: KHELGYH-DR05701
+      user: CHISHAR77
+      password: "Snow_chi@#2025"
+      role: ACCOUNTADMIN
+      database: superstore_db
+      warehouse: COMPUTE_WH  # Change if needed
+      schema: analytics
+      threads: 4
+      client_session_keep_alive: False
+      query_tag: dbt-run
