@@ -1,9 +1,9 @@
-name: 'admin_natural'
+name: "admin_natural"
 
 version: 2
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'default'
+profile: "default"
 
 # Define file paths for different dbt components
 model-paths: ["models"]
@@ -22,4 +22,4 @@ clean-targets:
 # Configure models materialization
 models:
   admin_natural:
-    materialized: table  # Change to "view" or "incremental" if needed
+    materialized: table # Change to "view" or "incremental" if needed
