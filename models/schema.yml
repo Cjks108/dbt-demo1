@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: superstore
+    database: superstore_db
+    schema: analytics
+    tables:
+      - name: superstore_sales
