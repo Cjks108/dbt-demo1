@@ -3,9 +3,9 @@ default:
   outputs:
     dev:
       type: snowflake
-      account: KHELGYH-DR05701
-      user: CHISHAR77
-      password: "Snow_chi@#2025"
+      account: 
+      user: 
+      password: ""
       role: ACCOUNTADMIN
       database: superstore_db
       warehouse: COMPUTE_WH # Change if needed
